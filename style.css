@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #28e7ee, #f127d6);
+}
+
+.dashboard-container {
+    text-align: center;
+    padding-top: 80px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.stats-card {
+    background: white;
+    width: 250px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.stats-card p {
+    font-size: 32px;
+    margin: 10px 0 0;
+    color: #667eea;
+    font-weight: bold;
+}
+
+.button-group {
+    margin: 30px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background: white;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 666;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #3caa1a;
+}
+
+.logout:hover {
+    background: #ff4d4d;
+    color: white;
+}
+
+.logout:hover {
+    background: #e60000;
+}
+
+.success {
+    background: #d4edda;
+    color: #155724;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.High_Risk{
+    background-color: #e40f0f;
+}
+
+.Medium_Risk {
+    background-color: #f8cd0f;
+}
+
+.Low_Risk {
+    background-color: #2ccf52;
+}
+
